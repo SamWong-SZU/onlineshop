@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <servlet-name>LoginVerify</servlet-name>
+    <servlet-class>servlet.LoginVerify</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>LogOut</servlet-name>
+    <servlet-class>servlet.LogOut</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is for register's checking username if available operation</description>
+    <servlet-name>Checkuser</servlet-name>
+    <servlet-class>servlet.Checkuser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is for register operation</description>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>servlet.Register</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is for register operation</description>
+    <servlet-name>Activate</servlet-name>
+    <servlet-class>servlet.Activate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is for getting Product</description>
+    <servlet-name>GetProduct</servlet-name>
+    <servlet-class>servlet.GetProduct</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is for showing a Product</description>
+    <servlet-name>Productdetail</servlet-name>
+    <servlet-class>servlet.Productdetail</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is for getting a Product stock</description>
+    <servlet-name>CheckStock</servlet-name>
+    <servlet-class>servlet.CheckStock</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is for adding production to cart</description>
+    <servlet-name>AddtoCart</servlet-name>
+    <servlet-class>servlet.AddtoCart</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MyCart</servlet-name>
+    <servlet-class>servlet.MyCart</servlet-class>
+  </servlet>
+  <servlet>
+    <description>Del a cid-Cart</description>
+    <servlet-name>DelformCart</servlet-name>
+    <servlet-class>servlet.DelformCart</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>OrderfromCart</servlet-name>
+    <servlet-class>servlet.OrderfromCart</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowAllOrder</servlet-name>
+    <servlet-class>servlet.ShowAllOrder</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DelOrder</servlet-name>
+    <servlet-class>servlet.DelOrder</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PayOrder</servlet-name>
+    <servlet-class>servlet.PayOrder</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateQuantityfromCart</servlet-name>
+    <servlet-class>servlet.UpdateQuantityfromCart</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdminVerify</servlet-name>
+    <servlet-class>servlet.AdminVerify</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdminUpdateProduct</servlet-name>
+    <servlet-class>servlet.AdminUpdateProduct</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdminQueryOrderByPid</servlet-name>
+    <servlet-class>servlet.AdminQueryOrderByPid</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PostReview</servlet-name>
+    <servlet-class>servlet.PostReview</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CheckExpress</servlet-name>
+    <servlet-class>servlet.CheckExpress</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdminAddProduct</servlet-name>
+    <servlet-class>servlet.AdminAddProduct</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdminDelUser</servlet-name>
+    <servlet-class>servlet.AdminDelUser</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdminCheckUserOrder</servlet-name>
+    <servlet-class>servlet.AdminCheckUserOrder</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginVerify</servlet-name>
+    <url-pattern>/LoginVerify</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogOut</servlet-name>
+    <url-pattern>/LogOut</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Checkuser</servlet-name>
+    <url-pattern>/Checkuser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Activate</servlet-name>
+    <url-pattern>/Activate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetProduct</servlet-name>
+    <url-pattern>/GetProduct</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Productdetail</servlet-name>
+    <url-pattern>/Productdetail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckStock</servlet-name>
+    <url-pattern>/CheckStock</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddtoCart</servlet-name>
+    <url-pattern>/AddtoCart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MyCart</servlet-name>
+    <url-pattern>/MyCart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelformCart</servlet-name>
+    <url-pattern>/DelformCart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderfromCart</servlet-name>
+    <url-pattern>/OrderfromCart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowAllOrder</servlet-name>
+    <url-pattern>/ShowAllOrder</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelOrder</servlet-name>
+    <url-pattern>/DelOrder</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PayOrder</servlet-name>
+    <url-pattern>/PayOrder</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateQuantityfromCart</servlet-name>
+    <url-pattern>/UpdateQuantityfromCart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminVerify</servlet-name>
+    <url-pattern>/AdminVerify</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminUpdateProduct</servlet-name>
+    <url-pattern>/AdminUpdateProduct</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminQueryOrderByPid</servlet-name>
+    <url-pattern>/AdminQueryOrderByPid</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PostReview</servlet-name>
+    <url-pattern>/PostReview</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckExpress</servlet-name>
+    <url-pattern>/CheckExpress</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminAddProduct</servlet-name>
+    <url-pattern>/AdminAddProduct</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminDelUser</servlet-name>
+    <url-pattern>/AdminDelUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminCheckUserOrder</servlet-name>
+    <url-pattern>/AdminCheckUserOrder</url-pattern>
+  </servlet-mapping>
+
+
+
+</web-app>
